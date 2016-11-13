@@ -5,8 +5,7 @@ This is Tcp Client and Server for LED for RPI 3
 
 
 
-To COMPILE the Server 
-C
+To COMPILE the Server C
 hostname$ gcc -o [what ever name] tcpserver.c -l wiringPi
 
 example = gcc -o tcpserver tcpserver.c -l wiringPi
@@ -26,8 +25,7 @@ example : ./tcpserver 22222
 
 
 
-To COMPILE the Client
- C
+To COMPILE the Client C
 hostname$ gcc -o [what ever name] tcpclient.c
 example = gcc -o tcpclient tcpclient.c 
 
